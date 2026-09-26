@@ -1,6 +1,6 @@
 # Pooping 💩
 
-> 一个为 Paper 服务器添加"拉屎"玩法的恶搞插件。
+> 一个为 Paper 服务器添加"拉屎"玩法的插件。
 
 [![Version](https://img.shields.io/badge/version-0.4-blue.svg)]()
 [![Paper](https://img.shields.io/badge/Paper-1.21.11-orange.svg)]()
@@ -12,7 +12,6 @@
 **Pooping** 是一个轻量级娱乐插件，让玩家可以在服务器里"拉屎"。
 通过特定的蹲下操作触发，屏幕会显示进度条，拉完后在脚下留下一坨**不可拾取、不可交互**的"屎"，并悬浮显示它属于谁。
 
-纯娱乐向，适合生存、休闲、整活服务器。
 
 ## 玩法
 
@@ -39,11 +38,11 @@
 
 1. 下载 `pooping-x.x.jar`
 2. 放入服务器 `plugins/` 目录
-3. 重启服务器（或 `/reload confirm`，不推荐）
+3. 重启服务器
 4. 首次启动会生成 `plugins/Pooping/config.yml`
 
 **环境要求：**
-- Paper（或兼容的 Spigot 分支）**1.21.11**
+- Paper（或兼容的 Spigot 分支）**1.21+**
 - Java **21+**
 
 ## 命令与权限
