@@ -146,10 +146,6 @@ mvn clean package
 
 产物位于 `target/pooping-x.x.jar`。
 
-## 作者
-
-**Nice_Leo_**
-
 ## 许可
 
 本项目基于 [GPL-3.0 license](LICENSE) 开源。
