@@ -4,8 +4,8 @@
 
 [![Version](https://img.shields.io/badge/version-0.4-blue.svg)]()
 [![Paper](https://img.shields.io/badge/Paper-1.21.11+-orange.svg)]()
-[![Java](https://img.shields.io/badge/Java-21-red.svg)]()
-[![License](https://img.shields.io/badge/license-GPL3.0-green.svg)]()
+[![Java](https://img.shields.io/badge/Java-21+-red.svg)]()
+[![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)]()
 
 ## 简介
 
