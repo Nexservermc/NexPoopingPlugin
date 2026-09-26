@@ -3,9 +3,9 @@
 > 一个为 Paper 服务器添加"拉屎"玩法的插件。
 
 [![Version](https://img.shields.io/badge/version-0.4-blue.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-1.21.11-orange.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-1.21+-orange.svg)]()
 [![Java](https://img.shields.io/badge/Java-21-red.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-green.svg)]()
+[![License](https://img.shields.io/badge/license-GPL-3.0-green.svg)]()
 
 ## 简介
 
