@@ -152,4 +152,4 @@ mvn clean package
 
 ## 许可
 
-本项目基于 [MIT License](LICENSE) 开源。
+本项目基于 [GPL-3.0 license](LICENSE) 开源。
