@@ -3,7 +3,7 @@
 > 一个为 Paper 服务器添加"拉屎"玩法的插件。
 
 [![Version](https://img.shields.io/badge/version-0.4-blue.svg)]()
-[![Paper](https://img.shields.io/badge/Paper-1.21+-orange.svg)]()
+[![Paper](https://img.shields.io/badge/Paper-1.21.11+-orange.svg)]()
 [![Java](https://img.shields.io/badge/Java-21-red.svg)]()
 [![License](https://img.shields.io/badge/license-GPL3.0-green.svg)]()
 
@@ -42,7 +42,7 @@
 4. 首次启动会生成 `plugins/Pooping/config.yml`
 
 **环境要求：**
-- Paper（或兼容的 Spigot 分支）**1.21+**
+- Paper（或兼容的 Spigot 分支）**1.21.11+**
 - Java **21+**
 
 ## 命令与权限
