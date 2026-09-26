@@ -1,0 +1,57 @@
+# =====================================================
+#  Pooping 插件配置
+#  修改后可用 /poop reload 重载（无需重启服务器）
+# =====================================================
+
+# ---------- 触发设置 ----------
+trigger:
+  # 两次快速点按（蹲下）之间的最大间隔，单位毫秒
+  tap-window-ms: 500
+  # 第二次点按到第三次长按之间的最大间隔，单位毫秒
+  hold-window-ms: 500
+  # 允许触发拉屎的游戏模式
+  # 可选值: SURVIVAL / ADVENTURE / CREATIVE / SPECTATOR
+  game-modes:
+    - SURVIVAL
+    - ADVENTURE
+    - CREATIVE
+
+# ---------- 进度条设置 ----------
+progress:
+  # 进度条标题文字
+  title: "正在拉屎"
+  # 竖线总数量
+  bar-length: 20
+  # 从开始到涨满所需时间，单位毫秒
+  duration-ms: 3000
+  # 未填充部分的颜色（初始颜色）
+  start-color: GREEN
+  # 已填充（推进）部分的颜色
+  fill-color: RED
+  # 玩家受伤时是否打断拉屎
+  cancel-on-damage: true
+
+# ---------- 屎的设置 ----------
+poop:
+  # 掉落物类型（Bukkit Material 名称）
+  material: GLOWSTONE_DUST
+  # 悬浮名格式，%player% 会被替换为玩家名
+  name-format: "%player%的屎"
+  # 悬浮名可见半径，单位格
+  name-view-radius: 8.0
+  # 存活时间，单位秒（到时间后消失）
+  lifetime-seconds: 60
+  # 是否允许玩家拾取（false = 不可拾取）
+  can-pickup: false
+
+  # ---------- 数量限制 ----------
+  limit:
+    # 是否启用数量限制（true 时下方配置生效）
+    enabled: false
+    # 单个玩家在同一服务器内同时存在的屎数量上限
+    # 达到上限后该玩家无法再拉，直到有屎消失
+    max-per-player: 1
+    # 达到上限时显示在动作栏的提示文字
+    message: "你拉不出来了！地上的屎太多了"
+    # 提示冷却，单位毫秒（防止连按刷屏）
+    message-cooldown-ms: 2000

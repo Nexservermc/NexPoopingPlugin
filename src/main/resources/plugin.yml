@@ -1,0 +1,20 @@
+name: Pooping
+description: ${project.description}
+version: '${version}'
+
+main: com.mention.pooping.Pooping
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ Nice_Leo_ ]
+
+commands:
+  poop:
+    description: Pooping 管理命令
+    usage: /poop reload
+    permission: pooping.reload
+
+permissions:
+  pooping.reload:
+    description: 允许重载 Pooping 配置
+    default: op
